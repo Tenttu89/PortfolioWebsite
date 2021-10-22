@@ -1,13 +1,4 @@
-/* INITIALIZE */
-
-html, body {
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
-    background: #000;
-    opacity: .9;
-    text-align: center;
-}
+/* Initialize global styles */
 
 body {
     width: 100%;
@@ -16,4 +7,8 @@ body {
     margin: 0;
 }
 
-/* GLOBAL STYLES */
+/* Header styles */
+
+#header {
+    background-color:#000;
+}
