@@ -1,10 +1,15 @@
-/* Initialize global styles */
+/* Global styles */
 
 body {
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
+}
+
+.contentWrapper {
+    width: 66%;
+    margin: 0 auto;
 }
 
 /* Header styles */
