@@ -126,6 +126,24 @@ p {
     padding-top: 2em;
 }
 
+.projectContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .projectContainer { 
+      flex-direction: column;
+    }
+    .second {
+      order: 2;
+    }
+    .third {
+      order: 3;
+    }
+  }
+
 #contactForm input {
     margin-bottom: 1.5em;
     margin-top: 0.3em;
