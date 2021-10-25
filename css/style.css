@@ -26,9 +26,17 @@ body {
 }
 
 #navInner {
-    display: inline;
     list-style-type: none;
     float: right;
+    padding-right: 0.5em;
+    font-size: 1.1em;
+    font-family: 'Ubuntu';
+}
+
+#navInner li {
+    display: inline;
+    font-family: 'Ubuntu';
+
 }
 
 /* Main styles */
