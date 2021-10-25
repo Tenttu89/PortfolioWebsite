@@ -110,21 +110,21 @@ p {
     margin-right: auto;
 }
 
+#about p {
+    width: 60%;
+}
+
 #projectBg {
     background-color: #dcdcdc;
 }
 
 #projects {
     padding-top: 4em;
-    padding-bottom: 4em;
+    padding-bottom: 8em;
 }
 
 #projects .fa {
     font-size: 2.5em;
-}
-
-#projects h1 {
-    padding-top: 2em;
 }
 
 .projectContainer {
@@ -160,7 +160,8 @@ p {
     text-decoration: none;
     color: #8B0000;
     border: 1px solid #8B0000;
-    transition: background-color 500ms ease-out, color 500ms ease-out;
+    padding: 5px;
+    transition: background-color 500ms ease-out, color 400ms ease-out;
 }
 
 .projectButton:hover {
