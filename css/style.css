@@ -178,6 +178,11 @@ p {
     font-size: 16px;
 }
 
+#firstName, #lastName, #phone, #email {
+    width: 16em;
+    text-align: center;
+}
+
 input#submit {
     margin-right: 20px;
 }
