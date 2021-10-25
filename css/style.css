@@ -15,11 +15,20 @@ body {
     color:#fff;
 }
 
-#header h4 {
+#header .logoText {
     margin: 0;
     font-size: 25px;
+    font-family: 'Ubuntu';
     padding-left: 0.5em;
     padding-top: 0.5em;
+    width: 4.5em;
+    float: left;
+}
+
+#navInner {
+    display: inline;
+    list-style-type: none;
+    float: right;
 }
 
 /* Main styles */
@@ -51,6 +60,7 @@ body {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Ubuntu';
 }
 
 /* Footer styles */
