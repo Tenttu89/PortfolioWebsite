@@ -26,13 +26,13 @@ body {
 
 #banner {
     height: 200px;
-    background: lightgrey;
+    background: url("./img/bannerBg.jpg");
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 700px;
 }
 
 #banner h1 {
