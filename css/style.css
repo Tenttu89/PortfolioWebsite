@@ -7,24 +7,16 @@ body {
     margin: 0;
 }
 
-.contentWrapper {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.section {
-    width: 66%;
-    margin-top: 100px;
-    margin-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 p {
     line-height: 1.6em;
 }
 
 /* Header styles */
+
+.headerWrapper {
+    width: 66%;
+    margin: 0 auto;
+}
 
 #header {
     background-color:#000;
@@ -98,14 +90,36 @@ p {
 }
 
 #main {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     font-family: 'Ubuntu';
 }
 
+.contentWrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section {
+    width: 66%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #projectBg {
-    background-color: #a9a9a9;
+    background-color: #dcdcdc;
+}
+
+#projects {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+#projects h1 {
+    padding-top: 2em;
 }
 
 #contactForm input {
