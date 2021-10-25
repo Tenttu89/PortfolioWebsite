@@ -118,6 +118,10 @@ p {
     padding-bottom: 4em;
 }
 
+#projects .fa {
+    font-size: 2.5em;
+}
+
 #projects h1 {
     padding-top: 2em;
 }
