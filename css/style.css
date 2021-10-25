@@ -15,6 +15,7 @@ body {
     color:#fff;
     position: fixed;
     width: 100%;
+    border-bottom: 2px solid #8B0000;
 }
 
 #header .logoText {
@@ -33,19 +34,27 @@ body {
     padding-right: 0.5em;
     font-size: 1.1em;
     font-family: 'Ubuntu';
+    border: 1px solid #FFF;
+    padding: 5px;
+    margin-left: 10px;
 }
 
 #navInner li {
     display: inline;
     font-family: 'Ubuntu';
+    transition: background-color 500ms ease-out;
+}
 
+#navInner li:hover {
+    cursor: pointer;
+    background:#8B0000;
 }
 
 /* Main styles */
 
 .section {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 #banner {
