@@ -30,10 +30,10 @@
                 <!-- Navigation starts -->
                 <div id="navOuter">
                     <ul id="navInner">
-                        <li><a href="#">Item 1</a></li>
-                        <li><a href="#">Item 2</a></li>
-                        <li><a href="#">Item 3</a></li>
-                        <li><a href="#">Item 4</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">My Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
                     </ul>
                 </div>
                 <!-- Navigation ends -->
@@ -51,15 +51,36 @@
                 <div id="about" class="section">
                     <h1>About me</h1>
                     <p>I'm Tenttu89 and this portfolio website is a Codecademy Project and its purpose is to get better at building interactive websites from scratch. The website includes a solid HTML framework with stylish and modern look through CSS and on top of that, interactivity with JavaScript.</p>
+                    <p>Also worth noting that this website is not my official portfolio and the site is only for testing purposes.</p>
                 </div>
                 <!-- About me ends -->
 
+                <!-- My projects starts -->
                 <div id="projects" class="section">
                     <h1>My projects</h1>
                     <p>Some projects of mine are listed here</p>
                     <p>Placeholder paragraph</p>
                     <p>Another placeholder paragraph</p>
                 </div>
+                <!-- My projects ends -->
+
+                <!-- Contact me starts -->
+                <div id="contact" class="section">
+                    <h1>Contact me</h1>
+                    <p>Use the form below to get in contact with me</p>
+                    <form id="contactForm">
+                        <label for="firstName">First name:</label><br/>
+                        <input type="text" id="firstName" name="firstName" required />
+                        <label for="lastName">Last name:</label>
+                        <input type="text" id="lastName" name="lastName" required />
+                        <label for="email">Email address:</label>
+                        <input type="email" id="email" name="email" required />
+                        <label for="phone">Phone number:</label>
+                        <input type="number" id="phone" name="phone" required />
+                        <input type="submit" id="submit" name="submit" />
+                    </form>
+                </div>
+                <!-- Contact me ends -->
             </div>
         </div>
 

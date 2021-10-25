@@ -12,6 +12,10 @@ body {
     margin: 0 auto;
 }
 
+p {
+    line-height: 1.6em;
+}
+
 /* Header styles */
 
 #header {
@@ -106,6 +110,11 @@ body {
     padding-bottom: 0.1em;
     position: relative;
     bottom: 0;
+}
+
+#footer a {
+    color: #FFF;
+    text-decoration: none;
 }
 
 .copyright {
