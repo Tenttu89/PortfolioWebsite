@@ -130,9 +130,10 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-top: 3em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .projectContainer { 
       flex-direction: column;
     }
@@ -142,7 +143,12 @@ p {
     .third {
       order: 3;
     }
-  }
+}
+
+.projectItem p {
+    margin: 0 auto !important;
+    width: 66% !important;
+}
 
 #contactForm input {
     margin-bottom: 1.5em;
