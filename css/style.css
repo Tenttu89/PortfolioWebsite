@@ -8,8 +8,16 @@ body {
 }
 
 .contentWrapper {
-    width: 66%;
+    width: 100%;
     margin: 0 auto;
+}
+
+.section {
+    width: 66%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -66,11 +74,6 @@ p {
 
 /* Main styles */
 
-.section {
-    margin-top: 100px;
-    margin-bottom: 150px;
-}
-
 #banner {
     height: 700px;
     background: url('../img/bannerBg.jpg') center;
@@ -99,6 +102,10 @@ p {
     margin: 0 auto;
     text-align: center;
     font-family: 'Ubuntu';
+}
+
+#projectBg {
+    background-color: #a9a9a9;
 }
 
 #contactForm input {
