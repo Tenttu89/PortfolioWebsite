@@ -55,6 +55,11 @@ body {
     background:#8B0000;
 }
 
+#navInner a {
+    color: #FFF;
+    text-decoration: none;
+}
+
 /* Main styles */
 
 .section {
