@@ -43,6 +43,11 @@ body {
 
 /* Main styles */
 
+.section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 #banner {
     height: 700px;
     background: url('../img/bannerBg.jpg') center;
