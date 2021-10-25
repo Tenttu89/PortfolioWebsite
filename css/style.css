@@ -33,15 +33,15 @@ body {
     float: right;
     padding-right: 0.5em;
     font-size: 1.1em;
-    font-family: 'Ubuntu';
-    border: 1px solid #FFF;
-    padding: 5px;
-    margin-left: 10px;
+    font-family: 'Ubuntu'; 
 }
 
 #navInner li {
     display: inline;
     font-family: 'Ubuntu';
+    border: 1px solid #FFF;
+    padding: 5px;
+    margin-left: 10px;
     transition: background-color 500ms ease-out;
 }
 
