@@ -25,14 +25,13 @@ body {
 /* Main styles */
 
 #banner {
-    height: 200px;
-    background: url("../img/bannerBg.jpg");
+    height: 700px;
+    background: url("../img/bannerBg.jpg") center;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 700px;
 }
 
 #banner h1 {
