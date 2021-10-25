@@ -45,6 +45,15 @@ body {
     font-size: 1.4em;
 }
 
+#mainContainer {
+    width: 100%;
+}
+
+#main {
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* Footer styles */
 
 #footer {
