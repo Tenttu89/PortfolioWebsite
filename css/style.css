@@ -26,7 +26,7 @@ body {
 
 #banner {
     height: 700px;
-    background: url("../img/bannerBg.jpg") center;
+    background: url('../img/bannerBg.jpg') center;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -38,11 +38,13 @@ body {
     margin: 0;
     color: #FFF;
     font-size: 2.5em;
+    font-family: 'Ubuntu';
 }
 
 #banner h3 {
     color: #FFF;
     font-size: 1.4em;
+    font-family: 'Ubuntu';
 }
 
 #main {
