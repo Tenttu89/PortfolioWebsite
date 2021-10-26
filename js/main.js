@@ -13,3 +13,13 @@ const submitFunction = () => {
 
 resetForm.onclick = resetFunction;
 submitForm.onclick = submitFunction;
+
+
+
+/* SMOOTH SCROLLING - TO TOP & NAV LINKS */
+
+window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+
+document.querySelector('#about, #projects, #contact').scrollIntoView({ 
+    behavior: 'smooth' 
+});

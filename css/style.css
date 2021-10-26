@@ -204,6 +204,10 @@ input#submitButton {
     padding-left: 0;
 }
 
+#footer li {
+    margin-bottom: 5px;
+}
+
 #footer a {
     color: #FFF;
     text-decoration: none;
@@ -211,4 +215,5 @@ input#submitButton {
 
 .copyright {
     text-align: center;
+    margin-top: 2em;
 }
