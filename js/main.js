@@ -66,7 +66,7 @@ const offerQuote = (event) => {
     }
 }
 
-/* PROJECT 1 - QUOTE */
+/* PROJECT 1 - FORTUNE */
 
 const tellFortune = (event) => {
     let randomNumber = Math.floor(Math.random() * 3);
