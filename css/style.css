@@ -137,7 +137,8 @@ p {
 
 #projects {
     padding-top: 4em;
-    padding-bottom: 8em;
+    padding-bottom: 7em;
+    margin-bottom: 70px;
 }
 
 #projects .fa {
