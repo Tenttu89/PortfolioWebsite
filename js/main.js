@@ -39,23 +39,14 @@ const offerQuote = () => {
         case 0:
             targetArea.style.display = 'block';
             targetArea.style.innerHTML = 'It is what it is!';
-            setTimeout(function() {
-                targetArea.style.display = 'none';
-            }, (3 * 1000));
             break;
         case 1:
             targetArea.style.display = 'block';
             targetArea.style.innerHTML = 'You get what you deserve!';
-            setTimeout(function() {
-                targetArea.style.display = 'none';
-            }, (3 * 1000));
             break;
         case 2:
             targetArea.style.display = 'block';
             targetArea.style.innerHTML = 'People like booze!';
-            setTimeout(function() {
-                targetArea.style.display = 'none';
-            }, (3 * 1000));
             break;
     }
 }
