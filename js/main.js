@@ -51,4 +51,4 @@ const offerQuote = () => {
     }
 }
 
-getElementById('quoteButton').onclick = offerQuote;
+document.getElementById('quoteButton').onclick = offerQuote;
