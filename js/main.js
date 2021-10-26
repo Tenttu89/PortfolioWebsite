@@ -27,3 +27,37 @@ const backToTop = (event) => {
 }
 
 window.onscroll = backToTop;
+
+
+
+/* PROJECT 1 - QUOTE */
+
+const offerQuote = () => {
+    let randomNumber = Math.floor(Math.random() * 4);
+    let targetArea = getElementById('resultArea');
+    switch(randomNumber) {
+        case 0:
+            targetArea.style.display = 'block';
+            targetArea.style.innerHTML = 'It is what it is!';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+            }, (3 * 1000));
+            break;
+        case 1:
+            targetArea.style.display = 'block';
+            targetArea.style.innerHTML = 'You get what you deserve!';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+            }, (3 * 1000));
+            break;
+        case 2:
+            targetArea.style.display = 'block';
+            targetArea.style.innerHTML = 'People like booze!';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+            }, (3 * 1000));
+            break;
+    }
+}
+
+getElementById('quoteButton').onclick = offerQuote;
