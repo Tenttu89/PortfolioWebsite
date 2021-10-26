@@ -336,3 +336,10 @@ input#submitButton {
     text-align: center;
     margin-top: 2em;
 }
+
+/* Project 1 styles */
+
+.resultBox {
+    border: 2px solid #8B0000;
+    display: none;
+}
