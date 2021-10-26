@@ -348,6 +348,11 @@ input#submitButton {
     text-align: center;
 }
 
+#quoteText {
+    color: #000;
+    font-size: 2em;
+}
+
 #quoteButton {
     margin-top: 2em;
     margin-bottom: 2em;

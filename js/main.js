@@ -37,18 +37,19 @@ window.onscroll = backToTop;
 const offerQuote = (event) => {
     let randomNumber = Math.floor(Math.random() * 3);
     let targetArea = document.getElementById('resultArea');
+    let targetAreaText = document.getElementById('quoteText');
     switch(randomNumber) {
         case 0:
             targetArea.style.display = 'block';
-            targetArea.style.innerHTML = '<p class="quoteText">It is what it is!</p>';
+            targetAreaText.innerHTML = 'It is what it is!';
             break;
         case 1:
             targetArea.style.display = 'block';
-            targetArea.style.innerHTML = '<p class="quoteText">You get what you deserve!</p>';
+            targetArea.innerHTML = 'You get what you deserve!';
             break;
         case 2:
             targetArea.style.display = 'block';
-            targetArea.style.innerHTML = '<p class="quoteText">People like booze!</p>';
+            targetArea.innerHTML = 'People like booze!';
             break;
     }
 }
