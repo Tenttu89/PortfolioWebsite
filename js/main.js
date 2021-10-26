@@ -66,4 +66,39 @@ const offerQuote = (event) => {
     }
 }
 
+/* PROJECT 1 - QUOTE */
+
+const tellFortune = (event) => {
+    let randomNumber = Math.floor(Math.random() * 3);
+    let targetArea = document.getElementById('resultArea');
+    let targetAreaText = document.getElementById('quoteText');
+    switch(randomNumber) {
+        case 0:
+            targetArea.style.display = 'block';
+            targetAreaText.innerHTML = 'You might meet someone in the coming days or you might not...';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+                targetAreaText.innerHTML = '';
+            }, (3 * 1000));
+            break;
+        case 1:
+            targetArea.style.display = 'block';
+            targetAreaText.innerHTML = 'You might get rich someday or you might not...';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+                targetAreaText.innerHTML = '';
+            }, (3 * 1000));
+            break;
+        case 2:
+            targetArea.style.display = 'block';
+            targetAreaText.innerHTML = 'You might live up to 150 years old or you might not...';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+                targetAreaText.innerHTML = '';
+            }, (3 * 1000));
+            break;
+    }
+}
+
 document.getElementById('quoteButton').onclick = offerQuote;
+document.getElementById('fortuneButton').onclick = tellFortune;
