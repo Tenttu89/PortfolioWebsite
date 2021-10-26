@@ -99,6 +99,29 @@ p {
     font-family: 'Ubuntu';
 }
 
+#bannerProjectPage {
+    height: 350px;
+    background: url('../img/bannerBg.jpg') center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bannerProjectPage h1 {
+    margin: 0;
+    color: #FFF;
+    font-size: 2.5em;
+    font-family: 'Ubuntu';
+}
+
+#bannerProjectPage h3 {
+    color: #FFF;
+    font-size: 1.4em;
+    font-family: 'Ubuntu';
+}
+
 #main {
     width: 100%;
     margin: 0 auto;
