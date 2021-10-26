@@ -15,3 +15,15 @@ resetForm.onclick = resetFunction;
 submitForm.onclick = submitFunction;
 
 
+
+/* SCROLL TO TOP BUTTON */
+
+const backToTop = (event) => {
+    if (window.pageYOffset > 100) {
+        document.getElementById('scrollTop').style.display = 'block';
+    } else {
+        document.getElementById('scrollTop').style.display = 'none';
+    }
+}
+
+window.onscroll = backToTop;
