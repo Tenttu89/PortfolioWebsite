@@ -121,6 +121,8 @@ p {
 
 .sectionIntro {
     font-size: 1.1em;
+    width: 60%;
+    margin: 0 auto;
 }
 
 #about p {
