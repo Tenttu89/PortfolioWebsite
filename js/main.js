@@ -34,7 +34,7 @@ window.onscroll = backToTop;
 
 const offerQuote = () => {
     let randomNumber = Math.floor(Math.random() * 4);
-    let targetArea = getElementById('resultArea');
+    let targetArea = document.getElementById('resultArea');
     switch(randomNumber) {
         case 0:
             targetArea.style.display = 'block';
