@@ -4,9 +4,9 @@ html {
     scroll-behavior: smooth;
 }
 
-#top, #about, #projects, #contact {
+#about, #projects, #contact {
     padding-top: 70px;
-    margin-top: -70px;
+    margin-top: 0px;
 }
 
 body {
