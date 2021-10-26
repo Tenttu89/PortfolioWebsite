@@ -253,7 +253,6 @@ input#submitButton {
 
 #scrollTop {
     display: none;
-    opacity: 0;
 }
 
 #scrollTop a {

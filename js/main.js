@@ -21,10 +21,8 @@ submitForm.onclick = submitFunction;
 const backToTop = (event) => {
     if (window.pageYOffset > 100) {
         document.getElementById('scrollTop').style.display = 'block';
-        document.getElementById('scrollTop').style.opacity = '1';
     } else {
         document.getElementById('scrollTop').style.display = 'none';
-        document.getElementById('scrollTop').style.opacity = '0';
     }
 }
 
