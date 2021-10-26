@@ -162,7 +162,7 @@ p {
       order: 3;
     }
     .projectItem {
-        width: 100%;
+        width: 100% !important;
     }
     .projectItem:not(:last-child) {
         margin-bottom: 4em;
