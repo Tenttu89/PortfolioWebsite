@@ -187,6 +187,10 @@ p {
     color: #FFF;
 }
 
+#contact {
+    margin-top: -70px;
+}
+
 #contactForm {
     margin-top: 3em;
 }
