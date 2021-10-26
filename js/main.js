@@ -45,11 +45,11 @@ const offerQuote = (event) => {
             break;
         case 1:
             targetArea.style.display = 'block';
-            targetArea.innerHTML = 'You get what you deserve!';
+            targetAreaText.innerHTML = 'You get what you deserve!';
             break;
         case 2:
             targetArea.style.display = 'block';
-            targetArea.innerHTML = 'People like booze!';
+            targetAreaText.innerHTML = 'People like booze!';
             break;
     }
 }
