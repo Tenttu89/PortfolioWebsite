@@ -161,8 +161,10 @@ p {
     .third {
       order: 3;
     }
-    .projectItem:not(:last-child) {
+    .projectItem {
         width: 100%;
+    }
+    .projectItem:not(:last-child) {
         margin-bottom: 4em;
     }
 }
