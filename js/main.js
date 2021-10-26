@@ -42,25 +42,31 @@ const offerQuote = (event) => {
         case 0:
             targetArea.style.display = 'block';
             targetAreaText.innerHTML = '"It is what it is!"';
+            document.getElementById('quoteButton').disabled = true;
             setTimeout(function() {
                 targetArea.style.display = 'none';
                 targetAreaText.innerHTML = '';
+                document.getElementById('quoteButton').disabled = false;
             }, (3 * 1000));
             break;
         case 1:
             targetArea.style.display = 'block';
             targetAreaText.innerHTML = '"You get what you deserve!"';
+            document.getElementById('quoteButton').disabled = true;
             setTimeout(function() {
                 targetArea.style.display = 'none';
                 targetAreaText.innerHTML = '';
+                document.getElementById('quoteButton').disabled = false;
             }, (3 * 1000));
             break;
         case 2:
             targetArea.style.display = 'block';
             targetAreaText.innerHTML = '"People like booze!"';
+            document.getElementById('quoteButton').disabled = true;
             setTimeout(function() {
                 targetArea.style.display = 'none';
                 targetAreaText.innerHTML = '';
+                document.getElementById('quoteButton').disabled = false;
             }, (3 * 1000));
             break;
     }
@@ -76,25 +82,31 @@ const tellFortune = (event) => {
         case 0:
             targetArea.style.display = 'block';
             targetAreaText.innerHTML = 'You might meet someone in the coming days or you might not...';
+            document.getElementById('fortuneButton').disabled = true;
             setTimeout(function() {
                 targetArea.style.display = 'none';
                 targetAreaText.innerHTML = '';
+                document.getElementById('fortuneButton').disabled = false;
             }, (3 * 1000));
             break;
         case 1:
             targetArea.style.display = 'block';
             targetAreaText.innerHTML = 'You might get rich someday or you might not...';
+            document.getElementById('fortuneButton').disabled = true;
             setTimeout(function() {
                 targetArea.style.display = 'none';
                 targetAreaText.innerHTML = '';
+                document.getElementById('fortuneButton').disabled = false;
             }, (3 * 1000));
             break;
         case 2:
             targetArea.style.display = 'block';
             targetAreaText.innerHTML = 'You might live up to 150 years old or you might not...';
+            document.getElementById('fortuneButton').disabled = true;
             setTimeout(function() {
                 targetArea.style.display = 'none';
                 targetAreaText.innerHTML = '';
+                document.getElementById('fortuneButton').disabled = false;
             }, (3 * 1000));
             break;
     }
