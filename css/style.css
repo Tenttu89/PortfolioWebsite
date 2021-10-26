@@ -101,7 +101,7 @@ p {
 
 #bannerProjectPage {
     height: 350px;
-    background: url('../img/bannerBg.jpg') center;
+    background: url('../img/projectBg.jpg') center;
     text-align: center;
     display: flex;
     flex-direction: column;
