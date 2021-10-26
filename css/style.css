@@ -100,7 +100,7 @@ p {
 }
 
 #bannerProjectPage {
-    height: 350px;
+    height: 500px;
     background: url('../img/projectBg.jpg') center;
     text-align: center;
     display: flex;
@@ -111,13 +111,13 @@ p {
 
 #bannerProjectPage h1 {
     margin: 0;
-    color: #FFF;
+    color: #FF0000;
     font-size: 2.5em;
     font-family: 'Ubuntu';
 }
 
 #bannerProjectPage h3 {
-    color: #FFF;
+    color: #FF0000;
     font-size: 1.4em;
     font-family: 'Ubuntu';
 }
