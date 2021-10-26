@@ -119,7 +119,7 @@ const tellFortune = (event) => {
                 targetAreaText.innerHTML = '';
                 document.getElementById('fortuneButton').disabled = false;
                 document.getElementById('quoteButton').disabled = false;
-            }, (3 * 1000));
+            }, (4 * 1000));
             break;
     }
 }
