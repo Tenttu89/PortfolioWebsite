@@ -183,8 +183,8 @@ p {
     text-align: center;
 }
 
-input#submit {
-    margin-right: 20px;
+input#submitButton {
+    margin-right: 1em;
 }
 
 /* Footer styles */
