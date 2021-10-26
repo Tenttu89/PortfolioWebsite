@@ -243,6 +243,62 @@ input#submitButton {
     text-decoration: none;
 }
 
+#scrollTopWrapper {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 50;
+    overflow: hidden;
+}
+
+#scrollTop {
+    display: none;
+}
+
+#scrollTop a {
+    border: 2px solid #8B0000;
+    display: block;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease 0s;
+    width: 45px;
+    margin: 0 auto;
+}
+
+#scrollTop span {
+    display: block;
+    transition: all 1s ease 0s;
+    z-index: 1;
+    margin-bottom: 0;
+    width: 41px;
+    height: 41px;
+    background: none;
+    position: relative;
+    overflow: hidden;
+}
+
+#scrollTop span:before {
+    top: 0;
+}
+
+#scrollTop span:before, #scrollTop span:after {
+    content: "\f062";
+    font-size: 19px;
+    font-family: FontAwesome;
+    line-height: 41px;
+    position: absolute;
+    left: 0;
+    width: 41px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+#scrollTop span:after {
+    top: 50px;
+    color: #FFF;
+}
+
 .copyright {
     text-align: center;
     margin-top: 2em;
