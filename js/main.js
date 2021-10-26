@@ -41,15 +41,27 @@ const offerQuote = (event) => {
     switch(randomNumber) {
         case 0:
             targetArea.style.display = 'block';
-            targetAreaText.innerHTML = 'It is what it is!';
+            targetAreaText.innerHTML = '"It is what it is!"';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+                targetAreaText.innerHTML = '';
+            }, (3 * 1000));
             break;
         case 1:
             targetArea.style.display = 'block';
-            targetAreaText.innerHTML = 'You get what you deserve!';
+            targetAreaText.innerHTML = '"You get what you deserve!"';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+                targetAreaText.innerHTML = '';
+            }, (3 * 1000));
             break;
         case 2:
             targetArea.style.display = 'block';
-            targetAreaText.innerHTML = 'People like booze!';
+            targetAreaText.innerHTML = '"People like booze!"';
+            setTimeout(function() {
+                targetArea.style.display = 'none';
+                targetAreaText.innerHTML = '';
+            }, (3 * 1000));
             break;
     }
 }
