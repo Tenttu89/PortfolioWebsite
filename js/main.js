@@ -40,15 +40,15 @@ const offerQuote = (event) => {
     switch(randomNumber) {
         case 0:
             targetArea.style.display = 'block';
-            targetArea.style.innerHTML = 'It is what it is!';
+            targetArea.style.innerHTML = '<p class="quoteText">It is what it is!</p>';
             break;
         case 1:
             targetArea.style.display = 'block';
-            targetArea.style.innerHTML = 'You get what you deserve!';
+            targetArea.style.innerHTML = '<p class="quoteText">You get what you deserve!</p>';
             break;
         case 2:
             targetArea.style.display = 'block';
-            targetArea.style.innerHTML = 'People like booze!';
+            targetArea.style.innerHTML = '<p class="quoteText">People like booze!</p>';
             break;
     }
 }
