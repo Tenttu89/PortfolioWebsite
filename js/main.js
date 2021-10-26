@@ -4,10 +4,7 @@ const resetButton = document.getElementById('reset');
 const submitButton = document.getElementById('submit');
 
 const resetFunction = () => {
-    document.getElementById('firstName').innerHTML = '';
-    document.getElementById('lastName').innerHTML = '';
-    document.getElementById('phone').innerHTML = '';
-    document.getElementById('email').innerHTML = '';
+    document.getElementById('contactForm').reset();
 }
 
 const submitFunction = () => {
