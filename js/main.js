@@ -34,8 +34,8 @@ window.onscroll = backToTop;
 
 /* PROJECT 1 - QUOTE */
 
-const offerQuote = () => {
-    let randomNumber = Math.floor(Math.random() * 4);
+const offerQuote = (event) => {
+    let randomNumber = Math.floor(Math.random() * 3);
     let targetArea = document.getElementById('resultArea');
     switch(randomNumber) {
         case 0:
