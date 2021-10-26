@@ -246,7 +246,7 @@ input#submitButton {
 #scrollTopWrapper {
     position: fixed;
     right: 25px;
-    bottom: 25px;
+    bottom: 5px;
     z-index: 50;
     overflow: hidden;
 }
@@ -264,6 +264,14 @@ input#submitButton {
     transition: all 1s ease 0s;
     width: 45px;
     margin: 0 auto;
+}
+
+#scrollTop a:hover {
+    background:#8B0000;
+}
+
+#scrollTop span:hover:before {
+    color: #FFF;
 }
 
 #scrollTop span {
@@ -289,9 +297,10 @@ input#submitButton {
     line-height: 41px;
     position: absolute;
     left: 0;
-    width: 41px;
+    width: 45px;
     text-align: center;
     transition: all 0.5s ease 0s;
+    color:#8B0000;
 }
 
 #scrollTop span:after {
