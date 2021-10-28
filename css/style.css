@@ -401,7 +401,7 @@ input#submitButton {
     height: 50px;
     border-bottom: none;
     text-align: right;
-    font-size: 0.8em;
+    font-size: 1.4em;
 }
 
 #calcOutputField2 {
@@ -409,7 +409,7 @@ input#submitButton {
     height: 60px;
     border-top: none;
     text-align: right;
-    font-size: 1.3em;
+    font-size: 2.4em;
 }
 
 #calcBtnClear {
