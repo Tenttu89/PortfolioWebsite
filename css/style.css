@@ -366,3 +366,15 @@ input#submitButton {
     font-size: 0.9em;
     padding: 0.3em;
 }
+
+/* Project 2 styles */
+
+.calcOuterContainer {
+    padding: 5px;
+}
+
+.calcInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
