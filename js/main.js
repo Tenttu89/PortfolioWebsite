@@ -139,7 +139,7 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
     let outputArray = [];
 
     const addButtonValueToArray = (event) => {
-        outputArray.push(document.getElementsByClassName('calcNumOperatorBtn').value);
+        outputArray.push(document.getElementsByClassName('calcNumOperatorBtn').textConent);
         document.getElementById('calcOutputField2').value = outputArray;
     }
 
