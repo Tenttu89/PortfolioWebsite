@@ -124,7 +124,9 @@ if (document.body.contains(document.getElementById('resultArea'))) {
             break;
         }
     }
+
+    document.getElementById('quoteButton').onclick = offerQuote;
+    document.getElementById('fortuneButton').onclick = tellFortune;
 }
 
-document.getElementById('quoteButton').onclick = offerQuote;
-document.getElementById('fortuneButton').onclick = tellFortune;
+
