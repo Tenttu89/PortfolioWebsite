@@ -136,12 +136,11 @@ if (document.body.contains(document.getElementById('resultArea'))) {
 
 if (document.body.contains(document.getElementById('calcOuterContainer'))) {
 
-    const clearButton = document.getElementById('calcBtnClear');
     let outputArray = [];
 
     const clearOutput = (event) => {
-        document.getElementById('calcOutput').reset();
+        document.getElementById('calcOutput').value = '';
     }
 
-    clearButton.onclick = clearOutput;
+    document.getElementById('calcBtnClear').onclick = clearOutput;
 }
