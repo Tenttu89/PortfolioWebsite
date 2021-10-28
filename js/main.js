@@ -1,6 +1,7 @@
 /* FORM FUNCTIONS */
 
 if (document.body.contains(document.getElementById('contactForm'))) {
+
     const resetForm = document.getElementById('resetButton');
     const submitForm = document.getElementById('submitButton');
 
@@ -81,6 +82,7 @@ const offerQuote = (event) => {
 /* PROJECT 1 - FORTUNE */
 
 if (document.body.contains(document.getElementById('resultArea'))) {
+    
     const tellFortune = (event) => {
     let randomNumber = Math.floor(Math.random() * 3);
     let targetArea = document.getElementById('resultArea');
@@ -130,3 +132,15 @@ if (document.body.contains(document.getElementById('resultArea'))) {
 }
 
 
+/* PROJECT 2 - CALCULATOR */
+
+if (document.body.contains(document.getElementById('calcOuterContainer'))) {
+
+    let outputArray = [];
+
+    const clearOutput = () => {
+        document.getElementById('calcOutput').reset();
+    }
+
+    document.getElementById('calcBtnClear').onclick = clearOutput;
+}
