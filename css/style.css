@@ -394,8 +394,22 @@ input#submitButton {
 #calcOutput {
     grid-column: span 4;
     border-bottom: 2px solid #8B0000;
+}
+
+#calcOutputField1 {
+    width: 98%;
+    height: 50px;
+    border-bottom: none;
     text-align: right;
-    font-size: 2em;
+    font-size: 0.8em;
+}
+
+#calcOutputField2 {
+    width: 98%;
+    height: 60px;
+    border-top: none;
+    text-align: right;
+    font-size: 1.3em;
 }
 
 #calcBtnClear {

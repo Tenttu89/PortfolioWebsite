@@ -139,7 +139,8 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
     let outputArray = [];
 
     const clearOutput = (event) => {
-        document.getElementById('calcOutput').value = '';
+        document.getElementById('calcOutputField1').value = '';
+        document.getElementById('calcOutputField2').value = '';
     }
 
     document.getElementById('calcBtnClear').onclick = clearOutput;
