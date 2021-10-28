@@ -369,11 +369,11 @@ input#submitButton {
 
 /* Project 2 styles */
 
-.calcOuterContainer {
+#calcOuterContainer {
     padding: 5px;
 }
 
-.calcInnerContainer {
+#calcInnerContainer {
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
