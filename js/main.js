@@ -138,7 +138,7 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
 
     let outputArray = [];
 
-    const clearOutput = () => {
+    const clearOutput = (event) => {
         document.getElementById('calcOutput').reset();
     }
 
