@@ -80,7 +80,8 @@ const offerQuote = (event) => {
 
 /* PROJECT 1 - FORTUNE */
 
-const tellFortune = (event) => {
+if (document.body.contains(document.getElementById('resultArea'))) {
+    const tellFortune = (event) => {
     let randomNumber = Math.floor(Math.random() * 3);
     let targetArea = document.getElementById('resultArea');
     let targetAreaText = document.getElementById('quoteText');
@@ -121,6 +122,7 @@ const tellFortune = (event) => {
                 document.getElementById('quoteButton').disabled = false;
             }, (4 * 1000));
             break;
+        }
     }
 }
 
