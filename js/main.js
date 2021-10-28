@@ -138,10 +138,16 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
 
     let outputArray = [];
 
+    const addButtonValueToArray = (event) => {
+        outputArray.push(document.getElementsByClassName('calcNumOperatorBtn').value);
+        document.getElementById('calcOutputField2').value = outputArray;
+    }
+
     const clearOutput = (event) => {
         document.getElementById('calcOutputField1').value = '';
         document.getElementById('calcOutputField2').value = '';
     }
 
+    document.getElementsByClassName('calcNumOperatorBtn').onclick = addButtonValueToArray;
     document.getElementById('calcBtnClear').onclick = clearOutput;
 }
