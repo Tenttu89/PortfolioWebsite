@@ -138,9 +138,19 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
 
     let outputArray = [];
 
-    const addButtonValueToArray = (event) => {
+    const addButtonOneToArray = (event) => {
         outputArray.push(document.getElementById('calcBtnOne').value);
-        document.getElementById('calcOutputField2').value = outputArray;
+        document.getElementById('calcOutputField2').value = outputArray.join(' ');
+    }
+
+    const addButtonTwoToArray = (event) => {
+        outputArray.push(document.getElementById('calcBtnTwo').value);
+        document.getElementById('calcOutputField2').value = outputArray.join(' ');
+    }
+
+    const addButtonPlusToArray = (event) => {
+        outputArray.push(document.getElementById('calcBtnPlus').value);
+        document.getElementById('calcOutputField2').value = outputArray.join(' ');
     }
 
     const clearOutput = (event) => {
@@ -148,6 +158,8 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
         document.getElementById('calcOutputField2').value = '';
     }
 
-    document.getElementById('calcBtnOne').onclick = addButtonValueToArray;
+    document.getElementById('calcBtnOne').onclick = addButtonOneToArray;
+    document.getElementById('calcBtnTwo').onclick = addButtonTwoToArray;
+    document.getElementById('calcBtnPlus').onclick = addButtonPlusToArray;
     document.getElementById('calcBtnClear').onclick = clearOutput;
 }
