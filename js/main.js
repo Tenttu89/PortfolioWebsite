@@ -148,6 +148,6 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
         document.getElementById('calcOutputField2').value = '';
     }
 
-    document.getElementsByClassName('calcNumOperatorBtn').onclick = addButtonValueToArray;
+    document.getElementById('calcBtnOne').onclick = addButtonValueToArray;
     document.getElementById('calcBtnClear').onclick = clearOutput;
 }
