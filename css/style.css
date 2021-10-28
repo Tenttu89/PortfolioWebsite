@@ -370,11 +370,36 @@ input#submitButton {
 /* Project 2 styles */
 
 #calcOuterContainer {
-    padding: 5px;
+    display: grid;
+    justify-content: center;
 }
 
 #calcInnerContainer {
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    justify-content: center;
+}
+
+#calcInnerContainer button {
+    font-size: 1.5em;
+}
+
+#calcInnerContainer button:hover {
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+#calcOutput {
+    grid-column: span 4;
+    border-bottom: 2px solid #8B0000;
+}
+
+#calcBtnClear {
+    grid-column: span 2;
+}
+
+#calcBtnEquals {
+    grid-column: span 2;
+    font-size: 3em;
 }
