@@ -215,7 +215,7 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
 
     const equationEquals = (event) => {
         document.getElementById('calcOutputField1').value = outputArray.join(' ');
-        document.getElementById('calcOutputField2').value = 'Perkeleen resultti!!';
+        document.getElementById('calcOutputField2').value = 'Perkeleen resultti!!' + ' = ';
     }
 
     const clearOutput = (event) => {
