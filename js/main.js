@@ -224,6 +224,11 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
         outputArray = [];
     }
 
+    const deleteLastChar = (event) => {
+        outputArray.pop();
+        document.getElementById('calcOutputField2').value = outputArray.join(' ');
+    }
+
     document.getElementById('calcBtnOne').onclick = addButtonOneToArray;
     document.getElementById('calcBtnTwo').onclick = addButtonTwoToArray;
     document.getElementById('calcBtnThree').onclick = addButtonThreeToArray;
@@ -241,4 +246,5 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
     document.getElementById('calcBtnMultiply').onclick = addButtonMultiplyToArray;
     document.getElementById('calcBtnEquals').onclick = equationEquals;
     document.getElementById('calcBtnClear').onclick = clearOutput;
+    document.getElementById('calcBtnDel').onclick = deleteLastChar;
 }
