@@ -214,8 +214,8 @@ if (document.body.contains(document.getElementById('calcOuterContainer'))) {
     }
 
     const equationEquals = (event) => {
-        document.getElementById('calcOutputField1').value = outputArray.join(' ');
-        document.getElementById('calcOutputField2').value = 'Vituttaa!!' + ' = ';
+        document.getElementById('calcOutputField1').value = outputArray.join(' ') + ' =';
+        document.getElementById('calcOutputField2').value = 'Vituttaa!!';
     }
 
     const clearOutput = (event) => {
